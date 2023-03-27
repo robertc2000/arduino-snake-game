@@ -1,7 +1,9 @@
 Introduction:
+
 For this project, my goal is to implement the game of Snake. The player will be able to interact with the game through a joystick. An 8x8 LED matrix will be used for displaying the game graphics, while the player's score will be shown on an LCD screen.
 
 General Description:
+
 As mentioned earlier, the player will control the direction of movement through the joystick. Additionally, by pressing the joystick button, the player can change the game's difficulty level (speed of movement). Throughout the game, the current score will be displayed on the LCD screen. When the player loses, the game will end, and an appropriate message will be displayed on the screen.
 
 The communication between the LCD screen and the Arduino board will be done using an I2C adapter, reducing the number of pins required. For the joystick, the two direction pins will be connected to analog inputs, while the button will be connected to one of the digital pins on the board.
@@ -11,6 +13,7 @@ The block diagram of the project is as follows:
 ![joc_snake_schema_generala drawio](https://user-images.githubusercontent.com/79792580/227972006-8cd22d2c-9b60-44f8-9f16-ba8b47eea793.png)
 
 Hardware Design:
+
 The components used for this project are:
 
 Atmega 328P
