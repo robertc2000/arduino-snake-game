@@ -39,6 +39,8 @@ game_state → the game state: can be RUNNING or GAME_OVER. While the game is in
 was_read → a value of the joystick must be read only once that is above the tolerance threshold, between two timer interrupts
 unsigned int speed[MAX_LEVEL]; → OCR1A register values (game speed)
 analog_pin → the pin from which the reading is made (A0 or A1)
+
+
 Functions used:
 
 bool check_input_detected() → checks if a valid reading has been made
